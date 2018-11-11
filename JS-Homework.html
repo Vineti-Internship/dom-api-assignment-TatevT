@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+</body>
+
+
+<script>
+//I know my code isn't working . Sorry I just used canvas bufore this. then it turned out I can't use it.  And I should have pushed it not upload a file.
+var but1 = document.createElement("button");
+but1.innerHTML = "start";
+but1.setAttribute('style',' border-radius: 30%; font-size: 15px; padding: 10px; margin: 4px; background-color: red;left: 0px; top: 300px; position:fixed');
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(but1);
+but1.onClick = rotate = () =>{
+//body
+}
+//second
+var but2 = document.createElement("button");
+but2.innerHTML = "stop";
+but2.setAttribute('style',' border-radius:30%;font-size: 15px;padding: 10px; margin: 4px; background-color:red;left: 100px; top: 300px; position:fixed');
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(but2);
+
+
+
+var div_1=document.createElement("div");
+div_1.setAttribute('style',' border-radius: 50%; width: 200px; height: 200px; font-size: 15px; padding: 10px; margin: 4px; background-color: green ;');
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(div_1);
+
+var div_2=document.createElement("div");
+div_2.setAttribute('style',' border-radius: 50%; width: 50px; height: 50px; font-size: 5px; padding: 5px; margin: 4px; background-color: yellow ;left: 195px; top: 100px; position:fixed');
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(div_2);
+
+button_1.addEventListener('click', function(e) {
+   t = t + 0.05; // "time"
+            var r = 10, //radius of circle
+                xcenter = 15, 
+                ycenter = 15,
+                x = Math.floor(xcenter + (r * Math.cos(t))), //circles parametric function
+                y = Math.floor(ycenter + (r * Math.sin(t))); //circles parametric function
+            mDiv.style.top = x + "px"; //set divs new coordinates
+            mDiv.style.left = y + "px"; //set divs new coordinates
+
+            setTimeout(function() { 
+                moveDiv(t,small);
+            }, 100);
+});
+
+
+</script>
+</html>
