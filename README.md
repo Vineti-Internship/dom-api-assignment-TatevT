@@ -25,7 +25,7 @@ __There are two possible grades for this assignment: P and F (Pass, Fail)__
 
 ## Feedback
 - Follow appropriate codestyle
-    - [For Reference]("https://github.com/airbnb/javascript")
+    - [For Reference](https://github.com/airbnb/javascript)
 
 
 \* DO NOT CHANGE THIS DOCUMENT, the reviewer will check the homework and add the grade
